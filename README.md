@@ -1,6 +1,6 @@
 # NUMCoT: Numerals and Units of Measurement in CoT Reasoning using LLMs
 
-Welcome to the official GitHub repository for our latest research on Numberals and Units in Chain of Thought using LLMs, titled **"NUMCoT: Numerals and Units of Measurement in Chain-of-Thought Reasoning using Large Language Models"**. In this work, we have carefully explored how small changes in numbers and units can cause dramatic variations in the reasoning performance of LLMs.
+Welcome to the official GitHub repository for our latest research on Numerals and Units of Measurement in Chain of Thought using LLMs, titled **"NUMCoT: Numerals and Units of Measurement in Chain-of-Thought Reasoning using Large Language Models"**. In this work, we have carefully explored how small changes in numbers and units can cause dramatic variations in the reasoning performance of LLMs.
 
 **Our work has been accepted by ACL 2024-Findings, Long paper. Here is the link to our** <a href="https://www.baidu.com">**NUMCoT paper**</a>.  
 
