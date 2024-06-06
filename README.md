@@ -2,7 +2,7 @@
 
 Welcome to the official GitHub repository for our latest research on Numerals and Units of Measurement in Chain of Thought using LLMs, titled **"NUMCoT: Numerals and Units of Measurement in Chain-of-Thought Reasoning using Large Language Models"**. In this work, we have carefully explored how small changes in numbers and units can cause dramatic variations in the reasoning performance of LLMs.
 
-**Our work has been accepted by ACL 2024-Findings, Long paper. Here is the link to our** <a href="https://www.baidu.com">**NUMCoT paper**</a>.  
+**Our work has been accepted by ACL 2024-Findings, Long paper. Here is the link to our** <a href="https://arxiv.org/abs/2406.02864">**NUMCoT paper**</a>.  
 
 If you find our project interesting or helpful, we would appreciate it if you could give us a star! Your support is a tremendous encouragement to us! 
 
@@ -19,3 +19,18 @@ We primarily selected ChatGPT3.5, ChatGLM-turbo, ERNIE-Bot-turbo, and the Llama2
 1. **Randomly Generated Numbers**: The data is categorized into three difficulty levels: easy, medium, and hard. This part of the experiment mainly reveals the phenomenon that small changes in numbers can significantly affect the reasoning performance of LLMs. It also explores the mechanisms by which LLMs understand numbers and the reasons for the failure of chain-of-thought (CoT) reasoning. The data for this part is stored in `datasets/data/experience_first`, and the code is in `src/code/experience_first`.
 2. **Randomly Generated Numbers + Units**: Similar to the first part, the data is categorized into three difficulty levels: easy, medium, and hard. This part of the experiment investigates how changes in both numbers and units can significantly impact LLMs' reasoning performance, comparing and analyzing the results with the first part to understand the reasons behind these phenomena. The data for this part is stored in `datasets/data/experience_second`, and the code is in `src/code/experience_second`.
 3. **MWPs and SUANJING Datasets**: This part examines the performance of LLMs on mathematical word problems (MWPs) and the SUANJING dataset, using only ChatGPT3.5, ChatGLM-turbo, and Llama2-70B models. The focus is on understanding the changes in reasoning performance of LLMs in real-world mathematical problems and reasoning scenarios involving long-tail rare knowledge. The data for this part is stored in `datasets/data/experience_third`, and the code is in `src/code/experience_third`.
+
+## Citation
+
+If you find our work helpful in your research, please cite the following paper:
+
+```
+@misc{xu2024numcot,
+      title={NUMCoT: Numerals and Units of Measurement in Chain-of-Thought Reasoning using Large Language Models}, 
+      author={Ancheng Xu and Minghuan Tan and Lei Wang and Min Yang and Ruifeng Xu},
+      year={2024},
+      eprint={2406.02864},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
